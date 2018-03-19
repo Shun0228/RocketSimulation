@@ -1,0 +1,29 @@
+{
+"info":{
+	"TEAM":		"Team name",
+	"NAME":		"Rocket name",
+	"DATE":		"Experiment date",
+	"VERSION":	"Submission version"
+	},
+
+"rocket":{
+	"ref_len":	"Rocket length[m]",
+	"diam":		"Rocket diameter[m]",
+	"CGlen_i":	"Initial CG place from nose[m]",
+	"CGlen_f":	"Final CG place from nose[m]",
+	"mass_i":	"Initial mass[kg]",
+	"mass_f":	"Final mass[kg]",
+	"Iyz_i":	"Initial inertia moment of rolling[kg*m^2]",
+	"Iyz_f":	"Final inertia moment of rolling[kg*m^2]",
+	"CPlen":	"CP place from nose[m]",
+	"Cd":		"Drag coefficient",
+	"Cna":		"Normal force coefficient",
+	"Cmq":		"Pitch damping moment coefficient",
+	"vel_1st":	"Terminal velocity of 1st parachute",
+	"op_type_1st":	"0:detect-peak, 1:fixed-time"
+	},
+
+"motor":{
+	"motor_file":	"Hypertek_J250.txt"
+	}
+}
